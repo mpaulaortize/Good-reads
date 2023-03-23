@@ -1,0 +1,32 @@
+    * {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: 'Hind', sans-serif;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 58px;
+        background: #616DD6;
+        display:flex;
+        justify-content: center;
+        padding: 5px 0;
+    }
+
+    .head-wrapper{
+        width: 70%;
+        max-width: 1000px;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pbold{
+        font-family: 'Hind';
+        font-weight: bold;
+    }
